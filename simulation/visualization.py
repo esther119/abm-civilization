@@ -253,26 +253,29 @@ class UniverseVisualizer:
         fig, ax = plt.subplots(figsize=(10, 6))
 
         for i, civ in enumerate(self.universe.civilizations.values()):
-            # Extract expansion events from history
-            events = [(e["date"], 1) for e in civ.history if e["event"] == "expansion"]
-            events.insert(
-                0, (civ.params.founding_date, 1)
-            )  # Add founding date with 1 star
+            # Get the actual visit dates for each star from the visited_stars dictionary
+            visit_dates = sorted(
+                [(date, star_id) for star_id, date in civ.visited_stars.items()]
+            )
 
-            # Convert to cumulative count
-            dates, counts = zip(*events)
-            cumulative_counts = np.cumsum(counts)
+            if not visit_dates:
+                continue
+
+            # Create timeline of cumulative unique stars
+            dates = [d for d, _ in visit_dates]
+            # Count unique stars at each date point (always adding 1 for each new star)
+            cumulative_counts = range(1, len(visit_dates) + 1)
 
             ax.plot(
                 dates,
                 cumulative_counts,
-                label=civ.params.name,
+                label=f"{civ.params.name} ({len(civ.visited_stars)} stars)",
                 color=self.colors[i % len(self.colors)],
             )
 
         ax.set_xlabel("Time")
-        ax.set_ylabel("Number of Stars")
-        ax.set_title("Civilization Expansion History")
+        ax.set_ylabel("Number of Unique Stars")
+        ax.set_title("Civilization Expansion History (Unique Stars)")
         ax.grid(True)
         plt.legend()
 
@@ -394,6 +397,10 @@ class UniverseVisualizer:
         pop_counts = [e["data"]["total_population"] for e in stats_events]
         star_counts = [e["data"]["inhabited_stars"] for e in stats_events]
 
+        # Calculate percentage of inhabited stars
+        total_stars = len(self.universe.stars)
+        star_percentages = [count / total_stars * 100 for count in star_counts]
+
         fig, axs = plt.subplots(3, 1, figsize=(10, 12), sharex=True)
 
         # Civilization count
@@ -410,11 +417,21 @@ class UniverseVisualizer:
         axs[1].grid(True)
 
         # Inhabited stars
-        axs[2].plot(dates, star_counts)
+        axs[2].plot(dates, star_counts, label=f"Count (Total: {total_stars})")
+        ax2 = axs[2].twinx()
+        ax2.plot(dates, star_percentages, "r--", label="Percentage")
+        ax2.set_ylabel("Percentage (%)")
+        ax2.set_ylim(0, 100)
+
         axs[2].set_title("Inhabited Stars")
         axs[2].set_ylabel("Count")
         axs[2].set_xlabel("Time")
         axs[2].grid(True)
+
+        # Combine legends
+        lines1, labels1 = axs[2].get_legend_handles_labels()
+        lines2, labels2 = ax2.get_legend_handles_labels()
+        axs[2].legend(lines1 + lines2, labels1 + labels2, loc="upper left")
 
         plt.tight_layout()
         return fig
