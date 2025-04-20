@@ -5,6 +5,24 @@ from mpl_toolkits.mplot3d import Axes3D
 import pandas as pd
 
 
+# Helper function to convert matplotlib colors to hex format
+def color_to_hex(color):
+    """Convert matplotlib color to hex string"""
+    if isinstance(color, str):
+        return color
+
+    if isinstance(color, tuple) or isinstance(color, np.ndarray):
+        # Convert RGB(A) to hex
+        if len(color) >= 3:
+            r, g, b = color[:3]
+            r = min(max(int(r * 255), 0), 255)
+            g = min(max(int(g * 255), 0), 255)
+            b = min(max(int(b * 255), 0), 255)
+            return f"#{r:02x}{g:02x}{b:02x}"
+
+    return "#000000"  # Default to black if conversion fails
+
+
 class UniverseVisualizer:
     """
     Visualization tools for the universe simulation.
@@ -54,6 +72,10 @@ class UniverseVisualizer:
             s=1,
             alpha=0.5,
         )
+
+        # Collect civilization data for parameters text box
+        civ_params_text = "Initial Civilization Parameters:\n"
+        civ_params_text += "--------------------------------\n"
 
         # Plot civilizations
         for i, civ in enumerate(self.universe.civilizations.values()):
@@ -118,6 +140,16 @@ class UniverseVisualizer:
                     fontsize=8,
                 )
 
+            # Add civilization parameters to the text box
+            civ_params_text += f"\n{civ.params.name} ({color_to_hex(color)}):\n"
+            civ_params_text += (
+                f"  Type: {civ.params.biological_type}/{civ.params.organization_type}\n"
+            )
+            civ_params_text += f"  Motivation: {civ.params.motivation}\n"
+            civ_params_text += f"  Tech: {civ.params.tech_level:.2f} (growth rate: {civ.params.tech_advancement_rate:.4f})\n"
+            civ_params_text += f"  Expansion rate: {civ.params.expansion_rate:.2f}\n"
+            civ_params_text += f"  Cooperation/Aggression: {civ.params.cooperation_factor:.2f}/{civ.params.aggression_factor:.2f}\n"
+
         # Set limits and labels
         max_range = self.universe.size / 2
         ax.set_xlim(-max_range, max_range)
@@ -132,6 +164,21 @@ class UniverseVisualizer:
 
         if show_labels:
             plt.legend(loc="upper right")
+
+        # Add the parameters text box if show_labels is True
+        if show_labels:
+            # Add a text box with civilization parameters in the bottom right
+            props = dict(boxstyle="round", facecolor="wheat", alpha=0.5)
+            fig.text(
+                0.95,
+                0.05,
+                civ_params_text,
+                fontsize=8,
+                verticalalignment="bottom",
+                horizontalalignment="right",
+                bbox=props,
+                transform=fig.transFigure,
+            )
 
         return fig, ax
 

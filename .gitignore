@@ -56,10 +56,6 @@ ENV/
 env.bak/
 venv.bak/
 
-# Simulation output files
-*.png
-*.mp4
-*.gif
 
 # IDE specific files
 .idea/
