@@ -1,0 +1,27 @@
+INTERSTELLAR CIVILIZATION SIMULATION - SUMMARY
+Generated on: 2025-04-19 21:43:24
+
+SIMULATION COMPLETE
+Final date: 200
+Active civilizations: 3
+
+Explorers:
+  Stars visited: 300
+  Active colonies: 299
+  Technology level: 49682402879309984.00 (49682402879309984.0x growth)
+  Total population: 1.0e+06
+  Largest colony: 4.3e+04
+
+Scholars:
+  Stars visited: 299
+  Active colonies: 298
+  Technology level: 60215072293893280.00 (60215072293893280.0x growth)
+  Total population: 8.6e+05
+  Largest colony: 7.6e+04
+
+Conquerors:
+  Stars visited: 2
+  Active colonies: 1
+  Technology level: 2.00 (2.0x growth)
+  Total population: 1.0e+06
+  Largest colony: 1.0e+06

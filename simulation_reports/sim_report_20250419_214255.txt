@@ -1,0 +1,578 @@
+INTERSTELLAR CIVILIZATION SIMULATION REPORT
+Generated on: 2025-04-19 21:42:55
+
+SIMULATION PARAMETERS
+Universe Size: 500.0
+Stars: 300
+Simulation Steps: 200
+Civilizations: 3 (Explorers, Scholars, Conquerors)
+
+
+==================================================
+STEP 0 (Date: 0)
+==================================================
+
+Universe: 3/300 stars inhabited (1.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |       1 |      1e+06   |          1   | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |       1 | 800000       |          1.2 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |          0.9 | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[0] Explorers: founding - 
+[0] Scholars: founding - 
+[0] Conquerors: founding - 
+
+
+==================================================
+STEP 10 (Date: 10)
+==================================================
+
+Universe: 6/300 stars inhabited (2.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |       1 |      1e+06   |         1.05 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |       4 | 800000       |         8.21 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |         0.94 | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[10] Scholars: expansion - expanded from star_5 to star_3
+[10] Scholars: expansion - expanded from star_5 to star_9
+[0] Explorers: founding - 
+[0] Conquerors: founding - 
+
+
+==================================================
+STEP 20 (Date: 20)
+==================================================
+
+Universe: 101/300 stars inhabited (33.7%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |       1 |      1e+06   |         1.1  | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     100 | 800000       |        56.13 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |         0.97 | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[20] Scholars: expansion - expanded from star_9 to star_8
+[20] Scholars: expansion - expanded from star_4 to star_6
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+[17] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+[0] Explorers: founding - 
+
+
+==================================================
+STEP 30 (Date: 30)
+==================================================
+
+Universe: 212/300 stars inhabited (70.7%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |      60 |      1e+06   |       315.02 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     200 | 800000       |       383.94 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |         1.01 | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[30] Explorers: tech_exchange - gained 0.142 tech from civ_2
+[30] Explorers: tech_exchange - gained 0.133 tech from civ_2
+[30] Scholars: expansion - expanded from star_2 to star_1
+[30] Scholars: expansion - expanded from star_2 to star_9
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+[17] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 40 (Date: 40)
+==================================================
+
+Universe: 282/300 stars inhabited (94.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     160 |      1e+06   |      2166.62 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     281 | 790000       |      2625.95 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |         1.06 | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[40] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[40] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[40] Scholars: expansion - expanded from star_8 to star_4
+[39] Scholars: expansion - expanded from star_1 to star_1
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 50 (Date: 50)
+==================================================
+
+Universe: 293/300 stars inhabited (97.7%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     260 |      1e+06   |      14818.7 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     293 | 790000       |      17960.2 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |          1.1 | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[50] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[50] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[50] Scholars: expansion - expanded from star_8 to star_5
+[49] Scholars: expansion - expanded from star_5 to star_7
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 60 (Date: 60)
+==================================================
+
+Universe: 298/300 stars inhabited (99.3%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     298 |      1e+06   |    101353    | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     297 | 790000       |    122840    | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |         1.14 | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[60] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[60] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[59] Scholars: expansion - expanded from star_0 to star_3
+[58] Scholars: expansion - expanded from star_9 to star_2
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 70 (Date: 70)
+==================================================
+
+Universe: 299/300 stars inhabited (99.7%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     298 |      1e+06   |    693206    | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 790000       |    840165    | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |         1.19 | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[70] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[70] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 80 (Date: 80)
+==================================================
+
+Universe: 299/300 stars inhabited (99.7%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     299 |      1e+06   |  4.7412e+06  | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 790000       |  5.74633e+06 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |  1.24        | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[80] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[80] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 90 (Date: 90)
+==================================================
+
+Universe: 299/300 stars inhabited (99.7%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     299 |      1e+06   |  3.24276e+07 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 790000       |  3.93022e+07 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |  1.29        | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[90] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[90] Explorers: tech_exchange - gained 0.000 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 100 (Date: 100)
+==================================================
+
+Universe: 299/300 stars inhabited (99.7%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     299 |      1e+06   |  2.21789e+08 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 790000       |  2.68809e+08 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |  1.34        | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[100] Explorers: tech_exchange - gained 0.001 tech from civ_2
+[100] Explorers: tech_exchange - gained 0.001 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 110 (Date: 110)
+==================================================
+
+Universe: 300/300 stars inhabited (100.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     300 |      1e+06   |  1.51693e+09 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 790000       |  1.83852e+09 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |  1.4         | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[110] Explorers: tech_exchange - gained 0.009 tech from civ_2
+[110] Explorers: tech_exchange - gained 0.008 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 120 (Date: 120)
+==================================================
+
+Universe: 300/300 stars inhabited (100.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     300 |      1e+06   |  1.03751e+10 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 790000       |  1.25746e+10 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |  1.45        | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[120] Explorers: tech_exchange - gained 0.058 tech from civ_2
+[120] Explorers: tech_exchange - gained 0.054 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 130 (Date: 130)
+==================================================
+
+Universe: 300/300 stars inhabited (100.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     300 |      1e+06   |  7.09609e+10 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 790000       |  8.60046e+10 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |  1.51        | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[130] Explorers: tech_exchange - gained 0.398 tech from civ_2
+[130] Explorers: tech_exchange - gained 0.370 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 140 (Date: 140)
+==================================================
+
+Universe: 300/300 stars inhabited (100.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     300 |      1e+06   |  4.85339e+11 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 790000       |  5.88231e+11 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |  1.57        | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[140] Explorers: tech_exchange - gained 2.720 tech from civ_2
+[140] Explorers: tech_exchange - gained 2.530 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 150 (Date: 150)
+==================================================
+
+Universe: 300/300 stars inhabited (100.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     300 |      1e+06   |  3.31949e+12 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 790000       |  4.02322e+12 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.2e+06 |  1.64        | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[150] Explorers: tech_exchange - gained 18.603 tech from civ_2
+[150] Explorers: tech_exchange - gained 17.301 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 160 (Date: 160)
+==================================================
+
+Universe: 300/300 stars inhabited (100.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     300 |      1e+06   |  2.27038e+13 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 780000       |  2.7517e+13  | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.1e+06 |  1.7         | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[160] Explorers: tech_exchange - gained 127.238 tech from civ_2
+[160] Explorers: tech_exchange - gained 118.331 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 170 (Date: 170)
+==================================================
+
+Universe: 300/300 stars inhabited (100.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     300 |      1e+06   |  1.55283e+14 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 780000       |  1.88203e+14 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.1e+06 |  1.77        | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[170] Explorers: tech_exchange - gained 870.249 tech from civ_2
+[170] Explorers: tech_exchange - gained 809.331 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 180 (Date: 180)
+==================================================
+
+Universe: 300/300 stars inhabited (100.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     300 |      1e+06   |  1.06206e+15 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 780000       |  1.28722e+15 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.1e+06 |  1.85        | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[180] Explorers: tech_exchange - gained 5952.083 tech from civ_2
+[180] Explorers: tech_exchange - gained 5535.434 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 190 (Date: 190)
+==================================================
+
+Universe: 300/300 stars inhabited (100.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     300 |      1e+06   |  7.26401e+15 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 | 780000       |  8.80398e+15 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       1 |      1.1e+06 |  1.92        | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[190] Explorers: tech_exchange - gained 40709.410 tech from civ_2
+[190] Explorers: tech_exchange - gained 37859.780 tech from civ_2
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+[32] Conquerors: conflict_won - conflict_won against civ_1 at star_5
+[18] Conquerors: conflict_won - conflict_won against civ_2 at star_5
+
+
+==================================================
+STEP 200 (Date: 200)
+==================================================
+
+Universe: 300/300 stars inhabited (100.0%)
+
+CIVILIZATION STATUS:
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Civilization   |   Stars |   Population |   Tech Level | Type                  | Motivation   |
++================+=========+==============+==============+=======================+==============+
+| Explorers      |     300 |        1e+06 |  4.96824e+16 | biological/individual | expansion    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Scholars       |     299 |   860000     |  6.02151e+16 | hybrid/hive           | knowledge    |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+| Conquerors     |       2 |        1e+06 |  2           | biological/individual | resource     |
++----------------+---------+--------------+--------------+-----------------------+--------------+
+
+RECENT EVENTS:
+[200] Explorers: tech_exchange - gained 278433.680 tech from civ_2
+[200] Explorers: tech_exchange - gained 258943.440 tech from civ_2
+[197] Conquerors: conflict_lost - conflict_lost against civ_2 at star_0
+[196] Conquerors: conflict_lost - conflict_lost against civ_1 at star_0
+[67] Scholars: expansion - expanded from star_4 to star_7
+[63] Scholars: expansion - expanded from star_4 to star_4
+
+
+==================================================
+FINAL RESULTS
+==================================================
+
+SIMULATION COMPLETE
+Final date: 200
+Active civilizations: 3
+
+Explorers:
+  Stars visited: 300
+  Active colonies: 299
+  Technology level: 49682402879309984.00 (49682402879309984.0x growth)
+  Total population: 1.0e+06
+  Largest colony: 4.3e+04
+
+Scholars:
+  Stars visited: 299
+  Active colonies: 298
+  Technology level: 60215072293893280.00 (60215072293893280.0x growth)
+  Total population: 8.6e+05
+  Largest colony: 7.6e+04
+
+Conquerors:
+  Stars visited: 2
+  Active colonies: 1
+  Technology level: 2.00 (2.0x growth)
+  Total population: 1.0e+06
+  Largest colony: 1.0e+06
